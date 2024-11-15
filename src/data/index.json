@@ -6,7 +6,7 @@
             "title": "Highway Dash",
             "tech": "Python, Pygame, Jupyter Notebook",
             "description": "A 2D driving game where players navigate through traffic while avoiding other cars. It progressively gets harder as you play and keeps track of your score on a leaderboard.",
-            "link": "View In Github"
+            "link": "https://github.com/HarolineNo/Python-Game.git"
         },
         {
             "id": "2",
@@ -14,14 +14,15 @@
             "title": "Inventory Tracker",
             "tech": "Django, Python, HTML/CSS, JavaScript, Bootstrap",
             "description": "A multi-page full-stack restaurant inventory management system with user authentication that can store over 50 items. Includes key features such as adding, deleting, and editing items, tracking ingredients, monitoring finances, managing purchases, etc. ",
-            "link": "View In Github"
+            "link": "https://github.com/HarolineNo/Inventory-Tracker.git"
         },
         {
             "id": "3",
             "src": "src/assets/images/quiz.png",
             "title": "Tunescape",
             "tech": "JavaScript, React Native",
-            "description": "I'm currently developing a music app that uses an API to curate personalized playlists for users based on moods, whether for relaxation, focus, or motivation.",            "link": "View In Github"
+            "description": "I'm currently developing a music app that uses an API to curate personalized playlists for users based on moods, whether for relaxation, focus, or motivation.",
+            "link": "https://github.com/HarolineNo/Tunescape.git"
         }
     ]
 }

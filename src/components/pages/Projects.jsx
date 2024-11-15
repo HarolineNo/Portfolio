@@ -4,16 +4,11 @@ import '../styles/Projects.css';
 export const Projects = () => {
   return (
     <section className="section">
-      <div className="container-box">
-        <div className="container">
-          <h2>My Projects</h2>
-        </div>
-        <div>
-          <button className="btn-github">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 33 33" fill="none"/>
-            Visit My GitHub
-          </button>
-        </div>
+      <div className="box">
+        <h2>My Projects</h2>
+        <a href="https://github.com/HarolineNo" target="_blank" rel="noopener noreferrer">
+          <button className="btn-github">Visit My GitHub</button>
+        </a>
       </div>
       <div className="section-container">
         {data?.projects?.map((item, index) => (
@@ -24,12 +19,12 @@ export const Projects = () => {
             <div className="card-content">
               <div>
                 <h3>{item.title}</h3>
+                <p className="italic-text">{item.tech}</p>
                 <p>{item.description}</p>
               </div>
-              <p className="portfolio-link">
-                {item.link}
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 19" fill="none"/>
-              </p>
+                <a href={item.link} target="_blank" rel="noopener noreferrer">
+                  <h4 className="portfolio-text">View in GitHub</h4>
+                </a>
             </div>
           </div>
         ))}
