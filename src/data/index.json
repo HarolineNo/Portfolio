@@ -6,7 +6,8 @@
             "title": "Highway Dash",
             "tech": "Python, Pygame, Jupyter Notebook",
             "description": "A 2D driving game where players navigate through traffic while avoiding other cars. It progressively gets harder as you play and keeps track of your score on a leaderboard.",
-            "link": "https://github.com/HarolineNo/Python-Game.git"
+            "link": "https://github.com/HarolineNo/Python-Game.git",
+            "demoLink": "https://github.com/HarolineNo/Python-Game.git"
         },
         {
             "id": "2",
@@ -14,7 +15,8 @@
             "title": "Inventory Tracker",
             "tech": "Django, Python, HTML/CSS, JavaScript, Bootstrap",
             "description": "A multi-page full-stack restaurant inventory management system with user authentication that can store over 50 items. Includes key features such as adding, deleting, and editing items, tracking ingredients, monitoring finances, managing purchases, etc. ",
-            "link": "https://github.com/HarolineNo/Inventory-Tracker.git"
+            "link": "https://github.com/HarolineNo/Inventory-Tracker.git",
+            "demoLink": "https://github.com/HarolineNo/Python-Game.git"
         },
         {
             "id": "3",
@@ -22,7 +24,66 @@
             "title": "Tunescape",
             "tech": "JavaScript, React Native",
             "description": "I'm currently developing a music app that uses an API to curate personalized playlists for users based on moods, whether for relaxation, focus, or motivation.",
-            "link": "https://github.com/HarolineNo/Tunescape.git"
+            "link": "https://github.com/HarolineNo/Tunescape.git",
+            "demoLink": "https://github.com/HarolineNo/Python-Game.git"
+        }
+    ],
+    "miniProjects": [
+        {
+            "id": "1",
+            "src": "src/assets/images/quiz.png",
+            "title": "Tic-Tac-Toe",
+            "tech": "JavaScript, HTML, CSS",
+            "link": "https://github.com/HarolineNo/tic-tac-toe.git"
+        },
+        {
+            "id": "2",
+            "src": "src/assets/images/quiz.png",
+            "title": "Calculator",
+            "tech": "JavaScript, HTML, CSS",
+            "link": "https://github.com/HarolineNo/JS-Calculator.git"
+        },
+        {
+            "id": "3",
+            "src": "src/assets/images/quiz.png",
+            "title": "Flappy Bird",
+            "tech": "Java",
+            "link": "https://github.com/HarolineNo/flappy-bird.git"
+        },
+        {
+            "id": "4",
+            "src": "src/assets/images/quiz.png",
+            "title": "Music Player",
+            "tech": "JavaScript, HTML, CSS",
+            "link": "https://github.com/HarolineNo/Music-player.git"
+        },
+        {
+            "id": "5",
+            "src": "src/assets/images/quiz.png",
+            "title": "Rock Paper Scissors",
+            "tech": "JavaScript, HTML, CSS",
+            "link": "https://github.com/HarolineNo/Mini-Project-rock-paper-scissors.git"
+        },
+        {
+            "id": "6",
+            "src": "src/assets/images/quiz.png",
+            "title": "Calorie Counter",
+            "tech": "JavaScript, HTML, CSS",
+            "link": "https://github.com/HarolineNo/Calorie-counter.git"
+        },
+        {
+            "id": "7",
+            "src": "src/assets/images/quiz.png",
+            "title": "RPG",
+            "tech": "JavaScript, HTML, CSS",
+            "link": "https://github.com/HarolineNo/javascript-rpg.git"
+        },
+        {
+            "id": "8",
+            "src": "src/assets/images/quiz.png",
+            "title": "QR Code",
+            "tech": "HTML, CSS, SCSS",
+            "link": "https://github.com/HarolineNo/Qr-Code.git"
         }
     ]
 }

@@ -41,7 +41,9 @@
 .card-content {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    align-items: flex-start;
+    align-self: stretch;
+    padding: 0.5rem;
 }
 .italic-text {
     font-style: italic;
@@ -70,8 +72,4 @@
 }
 .btn-github:hover {
     background-color: rgb(255, 89, 150);
-}
-.title-text {
-    font-size: 18px;
-    font-weight: bold;
 }
