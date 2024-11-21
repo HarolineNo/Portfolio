@@ -1,7 +1,51 @@
-import React from 'react'
+import { useState, useEffect } from 'react';
+import '../styles/About.css';
 
 export const About = () => {
+  const [loopNum, setLoopNum] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const toRotate = ["Web Developer", "Software Engineer", "Game Programmer"];
+  const [text, setText] = useState('');
+  const [delta, setDelta] = useState(300, -Math.random() * 100);
+  const period = 2000;
+
+  useEffect(() => {
+    let ticker = setInterval(() => {
+      tick();
+    }, delta)
+
+    return () => { clearInterval(ticker) };
+  }, [text]);
+
+  const tick = () => {
+    let i = loopNum % toRotate.length;
+    let fullText = toRotate[i];
+    let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
+
+    setText(updatedText);
+
+    if (isDeleting) {
+      setDelta(prevDelta => prevDelta / 2)
+    }
+
+    if (!isDeleting && updatedText === fullText) {
+      setIsDeleting(true);
+      setDelta(period);
+    }
+    else if (isDeleting && updatedText === '') {
+      setIsDeleting(false);
+      setLoopNum(loopNum + 1);
+      setDelta(500);
+    }
+  }
+
   return (
-    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea nostrum, corporis voluptatum nemo quibusdam eos magni animi enim, possimus voluptas mollitia quas labore, expedita dolore atque. Quibusdam aperiam libero reprehenderit, ullam natus omnis! Necessitatibus nihil suscipit, corporis autem sit harum porro voluptates delectus ut consequuntur repudiandae deserunt fuga provident, dolor id deleniti repellat voluptatibus! Officiis iusto facere fugit sed alias possimus assumenda quod ad vero aut officia perspiciatis non numquam animi, corporis eveniet consequatur, eum repellat cumque ea doloribus doloremque est tempore incidunt? Cumque necessitatibus suscipit quidem provident iusto corporis et ipsum sunt obcaecati enim! Veritatis ea at aperiam saepe.</div>
+    <section className="section">
+      <div>
+        <h1 className="header">{`Hi, I'm Haroline`}<span className="wrap">{text}</span></h1>
+        <p className="subtitle">Computer Science Undergradute</p>
+      </div>
+      <p>vbiekvbreivkbrjvewibvewujnvewnvdoiuehvwijbvei</p>
+    </section>
   )
 }

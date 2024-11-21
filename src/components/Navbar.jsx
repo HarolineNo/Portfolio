@@ -1,8 +1,13 @@
 import { useState } from 'react';
 import './styles/Navbar.css';
 import { Link, NavLink } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Offcanvas from 'react-bootstrap/Offcanvas';
 
-export const Navbar = () => {
+export const Menu = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (

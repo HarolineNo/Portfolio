@@ -1,7 +1,7 @@
 import data from '../../data/index.json';
-import '../styles/Projects.css';
+import '../styles/MiniProjects.css';
 
-export const Projects = () => {
+export const MiniProjects = () => {
   return (
     <section className="section">
       <div className="box">
