@@ -1,18 +1,21 @@
 import './App.css';
-import { Route, Routes} from 'react-router-dom';
 import { Menu } from './components/Navbar';
 import { About, Projects, Contact, Home } from './components/pages';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
-      <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/Contact" element={<Contact />} />
-      </Routes>
-      <About />
+    <div>
+      <Menu />
+      <section id="About">
+        <About />
+      </section>
+      <section id="Projects">
+        <Projects />
+      </section>
+      <section id="Contact">
+        <Contact />
+      </section>
     </div>
   );
 }
