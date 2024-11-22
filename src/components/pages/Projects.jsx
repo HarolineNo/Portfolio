@@ -1,7 +1,6 @@
 import data from '../../data/index.json';
 import '../styles/Projects.css';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import { MiniProjects } from './MiniProjects';
 
 export const Projects = () => {
@@ -10,9 +9,9 @@ export const Projects = () => {
       <div className="project-container">
         <div className="box">
           <h2>My Projects</h2>
-          <Card.Link href="https://github.com/HarolineNo" target="_blank" rel="noopener noreferrer">
-            <Button className="btn-github" variant="primary">Visit My Github</Button>
-          </Card.Link>
+          <a href="https://github.com/HarolineNo" target="_blank" rel="noopener noreferrer">
+            <button className="btn-github">Visit My GitHub</button>
+          </a>
         </div>
 
         <div className="section-container">

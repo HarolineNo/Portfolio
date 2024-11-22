@@ -1,39 +1,36 @@
 import data from '../../data/index.json';
 import '../styles/MiniProjects.css';
+import { useState } from 'react';
+import Button from'react-bootstrap/Button';
+import Carousel from 'react-bootstrap/Carousel';
 
 export const MiniProjects = () => {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
+
   return (
     <section className="section">
       <div className="box">
-        <h2>My Projects</h2>
-        <a href="https://github.com/HarolineNo" target="_blank" rel="noopener noreferrer">
-          <button className="btn-github">Visit My GitHub</button>
-        </a>
+        <h2>Mini-Projects</h2>
       </div>
-      <div className="section-container">
-        {data?.projects?.map((item, index) => (
-          <div key={index} className="card">
-            <div className="image">
-              <img src={item.src} alt="Placeholder" />
-            </div>
-            <div className="card-content">
-              <div>
+
+      <Carousel activeIndex={index} onSelect={handleSelect}>
+          {data?.miniProjects?.map((item, index) => (
+            <Carousel.Item key={index}>
+              <img src={item.src} />
+              <Carousel.Caption>
                 <h3>{item.title}</h3>
-                <p className="italic-text">{item.tech}</p>
+                <h4 style={{ fontStyle: 'italic' }}>{item.tech}</h4>
                 <p>{item.description}</p>
-              </div>
-              <div className="demo-source">
-                <a href={item.link} target="_blank" rel="noopener noreferrer">
-                  <h4 className="portfolio-text">Demo</h4>
-                </a>
-                <a href={item.link} target="_blank" rel="noopener noreferrer">
-                  <h4 className="portfolio-text">Source Code</h4>
-                </a>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
+                <Button href={item.link} target="_blank" rel="noopener noreferrer">Source Code</Button>
+              </Carousel.Caption>
+            </Carousel.Item>
+          ))}
+      </Carousel>
     </section>
   );
 }
+

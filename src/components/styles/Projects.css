@@ -1,12 +1,68 @@
 .section {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
 }
-
+.box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.section-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.image {
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #fff;
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.italic-text {
+    font-style: italic;
+}
+.portfolio-text {
+    color: gray;
+    border-bottom: 1px solid red;
+    font-weight: bold;
+}
+.portfolio-text:hover {
+    color: black;
+}
+.demo-source {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 .btn-github {
     background-color: aqua !important;
     border-radius: 0 !important;
 }
-
 .btn-github:hover {
     background-color: rgb(117, 255, 255) !important;
 }
