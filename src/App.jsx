@@ -7,7 +7,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 function App() {
   return (
     <div className="app">
-      <div>
+      <div className="background">
           <span></span>
           <span></span>
           <span></span>
