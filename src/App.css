@@ -2,6 +2,11 @@
   background-color: black;
 }
 
+#Home {
+  background-image: url('src/assets/images/bg1.jpg');
+  background-size: cover;
+}
+
 @keyframes move {
   100% {
       transform: translate3d(0, 0, 1px) rotate(360deg);

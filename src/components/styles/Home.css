@@ -5,7 +5,7 @@
 }
 
 .header {
-    font-size: 4rem;
+    font-size: 5rem !important;
     text-align: center;
     letter-spacing: -2px;
     color: black;
@@ -24,28 +24,76 @@
 }
 
 .terminal-container {
-    margin-top: 15%;
+    padding: 5%;
+    margin: auto;
+    width: 100%;
 }
 
 .clear-block {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: auto;
     border-bottom-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
-    background-color: rgb(255, 255, 255, 0.7);
+    background-color: rgb(255, 255, 255, 0.4);
     flex-direction: column;
-    height: 50vh;
+    height: 70vh;
 }
 
 .terminal {
     background-color: white;
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .glitch {
+    align-items: center;
+    justify-content: center;
     text-shadow: 
         0.025em 0 0 #ff00ff,
         -0.025em 0 0 #00ffff;
+
+    animation: glitch 1000ms infinite;
 }
+
+@keyframes glitch {
+    0% { 
+        text-shadow:
+            0.1em 0 0 #ff00ff,
+            -0.1em 0 0 #00ffff;
+    }
+    14% { 
+        text-shadow:
+            0.1em 0 0 #ff00ff,
+            -0.1em 0 0 #00ffff;
+    }
+    15% { 
+        text-shadow:
+            0.2em 0 0 #ff00ff,
+            -0.2em 0 0 #00ffff;
+    }
+    49% { 
+        text-shadow:
+            0.2em 0 0 #ff00ff,
+            -0.2em 0 0 #00ffff;
+    }
+    50% { 
+        text-shadow:
+            0.1em 0 0 #ff00ff,
+            -0.1em 0 0 #00ffff;
+    }
+    99% { 
+        text-shadow:
+            0.1em 0 0 #ff00ff,
+            -0.1em 0 0 #00ffff;
+    }
+    100% { 
+        text-shadow:
+            0.2em 0 0 #ff00ff,
+            -0.2em 0 0 #00ffff;
+    }
+}
+
