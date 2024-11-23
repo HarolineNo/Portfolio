@@ -8,6 +8,7 @@
     font-size: 4rem;
     text-align: center;
     letter-spacing: -2px;
+    color: black;
 }
 
 .header span {
@@ -20,8 +21,7 @@
 }
 
 .terminal-container {
-    padding: 5rem;
-    margin: auto;
+    margin-top: 15%;
 }
 
 .clear-block {
@@ -30,12 +30,17 @@
     margin: auto;
     border-bottom-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(255, 255, 255, 0.2);
     flex-direction: column;
+    height: 50vh;
 }
 
 .terminal {
     background-color: white;
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
+}
+
+.glitch {
+    color: red;
 }

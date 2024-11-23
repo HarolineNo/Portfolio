@@ -1,46 +1,15 @@
 .section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1.5rem;
+    display: flex !important; 
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 1.5rem !important;
 }
 .box {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.section-container {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-.image {
-    border-radius: 8px;
-    margin-bottom: 0.5rem;
-}
-
-.italic-text {
-    font-style: italic;
-}
-.portfolio-text {
-    color: gray;
-    border-bottom: 1px solid red;
-    font-weight: bold;
-}
-.portfolio-text:hover {
-    color: black;
-}
-.demo-source {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+    display: flex !important;
+    width: 100% !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-bottom: 1rem !important;
 }
 .btn-github {
     background-color: aqua !important;
@@ -49,14 +18,24 @@
 .btn-github:hover {
     background-color: rgb(117, 255, 255) !important;
 }
-.link {
-    font-size: 18; 
-    font-weight: "bold"; 
-    color: "gray";
-    text-decoration: "none";
+.cards {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
 }
-.card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.carousel-image {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 10px !important;
+}
+.custom-carousel {
+    width: 100%; 
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 10px;
+    padding: 1rem;
+    color: white;
 }

@@ -17,19 +17,21 @@ export const MiniProjects = () => {
         <h2>Mini-Projects</h2>
       </div>
 
-      <Carousel activeIndex={index} onSelect={handleSelect}>
-          {data?.miniProjects?.map((item, index) => (
-            <Carousel.Item key={index}>
-              <img src={item.src} />
-              <Carousel.Caption>
-                <h3>{item.title}</h3>
-                <h4 style={{ fontStyle: 'italic' }}>{item.tech}</h4>
-                <p>{item.description}</p>
-                <Button href={item.link} target="_blank" rel="noopener noreferrer">Source Code</Button>
-              </Carousel.Caption>
-            </Carousel.Item>
-          ))}
-      </Carousel>
+      <div className="cards">
+        <Carousel activeIndex={index} onSelect={handleSelect} className="carousel">
+            {data?.miniProjects?.map((item, index) => (
+              <Carousel.Item key={index}>
+                <img className="carousel-image" src={item.src} />
+                <Carousel.Caption className="carousel-caption">
+                  <h3>{item.title}</h3>
+                  <h4 style={{ fontStyle: 'italic' }}>{item.tech}</h4>
+                  <p>{item.description}</p>
+                  <Button href={item.link} target="_blank" rel="noopener noreferrer">Source Code</Button>
+                </Carousel.Caption>
+              </Carousel.Item>
+            ))}
+        </Carousel>
+      </div>
     </section>
   );
 }

@@ -4,7 +4,7 @@ import './styles/Navbar.css';
 
 export const Menu = () => {
     return (
-        <Navbar bg="dark" data-bs-theme="dark" className="navbar">
+        <Navbar data-bs-theme="dark" className="navbar">
             <Navbar.Brand href="#Home">Haroline</Navbar.Brand>
             <Nav className="ms-auto">
                 <Nav.Link href="#About">About</Nav.Link>
