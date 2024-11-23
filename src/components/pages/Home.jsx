@@ -10,7 +10,12 @@ export const Home = () => {
           <i className="bi bi-circle-fill" style={{ color: "rgb(96, 209, 126)", padding: 5 }}></i>
         </div>
         <div className="clear-block">
-          <h1 className="header glitch">{`Hey, there! `}<span className="wrap">I&apos;m Haroline</span></h1>
+          <h1 className="header glitch">
+            Hey, there!
+            <br />
+            {`I'm `}
+            <span>Haroline</span>
+          </h1>
           <p className="subtitle">Aspiring Software Engineer</p>
         </div>
       </div>

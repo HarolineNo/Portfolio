@@ -7,6 +7,11 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 function App() {
   return (
     <div className="app">
+      
+      <Menu />
+      <section id="Home">
+        <Home />
+      </section>
       <div className="background">
           <span></span>
           <span></span>
@@ -29,10 +34,6 @@ function App() {
           <span></span>
           <span></span>
       </div>
-      <Menu />
-      <section id="Home">
-        <Home />
-      </section>
       <section id="About">
         <About />
       </section>
