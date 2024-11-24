@@ -4,7 +4,7 @@ export const Skills = () => {
   return (
     <div className="skills-section">
       <h1>Skills</h1>
-      <div className="skills-list1">
+      <div className="skills-list">
         <div className="skill">
           <img src='src\assets\images\html-5.png' alt='HTML' className="skill-img" />
         </div>
@@ -17,22 +17,20 @@ export const Skills = () => {
         <div className="skill">
           <img src='src\assets\images\python.png' alt='python' className="skill-img" />
         </div>
-      </div>
-      <div className="skills-list2">
         <div className="skill">
           <img src='src\assets\images\java.png' alt='java' className="skill-img" />
         </div>
         <div className="skill">
           <img src='src\assets\images\csharp.png' alt='c sharp' className="skill-img" />
         </div>
+      </div>
+      <div className="skills-list">
         <div className="skill">
           <img src='src\assets\images\science.png' alt='react' className="skill-img" />
         </div>
         <div className="skill">
           <img src='src\assets\images\django.png' alt='django' className="skill-img" />
         </div>
-      </div>
-      <div className="skills-list3">
         <div className="skill">
           <img src='src\assets\images\mysql.png' alt='mySQL' className="skill-img" />
         </div>
