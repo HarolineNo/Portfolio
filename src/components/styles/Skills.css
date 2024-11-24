@@ -1,0 +1,18 @@
+.skill-list1 {
+    flex-direction: row;
+}
+
+.skill-list2 {
+    flex-direction: row;
+}
+
+.skill-list13 {
+    flex-direction: row;
+}
+
+.skill-img {
+    width: 10%;
+    padding: 1%;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
