@@ -5,6 +5,7 @@
 #Home {
   background-image: url('src/assets/images/bg1.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 @keyframes move {

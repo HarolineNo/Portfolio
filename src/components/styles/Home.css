@@ -23,8 +23,21 @@
     font-size: 1.5rem !important;
 }
 
+.learn-more {
+    color: white;
+    border-bottom: 3px solid #00ffff;
+    margin: auto;
+    font-size: 1.25rem;
+    margin-bottom: 3%;
+    padding: 0.25rem;
+    text-decoration: none;
+}
+
 .terminal-container {
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 2%;
     margin: auto;
     width: 100%;
 }
@@ -36,9 +49,11 @@
     margin: auto;
     border-bottom-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
-    background-color: rgb(255, 255, 255, 0.4);
+    background-color: rgb(255, 255, 255, 0.2);
     flex-direction: column;
     height: 70vh;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-top: none;
 }
 
 .terminal {

@@ -1,6 +1,8 @@
 import '../styles/Home.css';
 
 export const Home = () => {
+  const careers = ['Software Engineer', 'Web Developer', 'Game Programmer'];
+
   return (
     <section className="container">
       <div className="terminal-container">
@@ -18,9 +20,10 @@ export const Home = () => {
               <span>Haroline</span>
             </h1>
           </div>
-          <p className="subtitle">Aspiring Software Engineer</p>
+          <p className="subtitle">Aspiring {careers}</p>
         </div>
       </div>
+      <a href="#About" className="learn-more">Learn More</a>
     </section>
   )
 }
