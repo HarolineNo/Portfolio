@@ -3,24 +3,24 @@
 }
 
 .title {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: white;
     font-family: 'Fira Code', Courier, monospace;
 }
 
 .title-box {
-    background-color: #00e0e0;
-    width: 7%;
-    height: 1rem;
-    margin-top: -30px;
-    margin-left: 3%;
+    background-color: #00d6d6;
+    width: 8%;
+    height: 1.5em;
+    margin-top: -35px;
+    margin-left: 5%;
 }
 
 .about {
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    width: 40%;
-    font-size: 1.1rem;
+    width: 50%;
+    font-size: 1.5rem;
     margin-top: 2%;
 }
 

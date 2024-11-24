@@ -85,5 +85,77 @@
             "tech": "HTML, CSS, SCSS",
             "link": "https://github.com/HarolineNo/Qr-Code.git"
         }
+    ],
+    "skills": [
+        {
+            "id": "1",
+            "title": "Python",
+            "src": "Advanced"
+        },
+        {
+            "id": "2",
+            "title": "Java",
+            "src": "Advanced"
+        },
+        {
+            "id": "3",
+            "title": "JavaScript",
+            "src": "Advanced"
+        },
+        {
+            "id": "4",
+            "title": "HTML",
+            "src": "Advanced"
+        },
+        {
+            "id": "5",
+            "title": "CSS",
+            "src": "Advanced"
+        },
+        {
+            "id": "6",
+            "title": "Python",
+            "src": "Advanced"
+        },
+        {
+            "id": "7",
+            "title": "C#",
+            "src": "Advanced"
+        },
+        {
+            "id": "8",
+            "title": "SQL",
+            "src": "Advanced"
+        },
+        {
+            "id": "9",
+            "title": "Django",
+            "src": "Advanced"
+        },
+        {
+            "id": "10",
+            "title": "React",
+            "src": "Advanced"
+        },
+        {
+            "id": "11",
+            "title": "MySQL",
+            "src": "Advanced"
+        },
+        {
+            "id": "12",
+            "title": "Bootstrap",
+            "src": "Advanced"
+        },
+        {
+            "id": "13",
+            "title": "Git",
+            "src": "Advanced"
+        },
+        {
+            "id": "15",
+            "title": "Unity",
+            "src": "Advanced"
+        }
     ]
 }

@@ -1,0 +1,11 @@
+.contact-container {
+    flex-direction: column;
+}
+
+.buttons {
+    flex-direction: row;
+}
+
+.contact-info {
+    flex-direction: row;
+}
