@@ -1,0 +1,29 @@
+.education-section {
+    background-image: url('src/assets/images/bg1.jpg');
+    background-size: cover;
+    border-radius: 30px;
+    margin: auto;
+    width: 85%;
+    padding: 1%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.education-content {
+    padding: 2%;
+}
+
+.education-item {
+    flex-direction: column;
+    color: white;
+    display: flex;
+}
+
+.education-title {
+    color: white;
+    text-align: center;
+}
+
+.date {
+    font-style: italic;
+    font-size: 1.3em;
+}

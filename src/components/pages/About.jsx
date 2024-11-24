@@ -1,4 +1,5 @@
 import '../styles/About.css';
+import { Education } from './Education.jsx';
 
 export const About = () => {
   return (
@@ -15,6 +16,7 @@ export const About = () => {
           <img src='src\assets\images\quiz.png' />
         </div>
       </div>
+      <Education />
     </div>
   )
 }
