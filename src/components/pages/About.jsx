@@ -1,6 +1,5 @@
 import '../styles/About.css';
 import { Education } from './Education.jsx';
-import { Skills } from './Skills.jsx';
 
 export const About = () => {
   return (
@@ -18,7 +17,6 @@ export const About = () => {
         </div>
       </div>
       <Education />
-      <Skills />
     </div>
   )
 }

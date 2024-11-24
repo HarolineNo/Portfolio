@@ -3,6 +3,7 @@ import { Menu } from './components/Navbar';
 import { About, Projects, Contact, Home } from './components/pages';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import { Skills } from './components/pages/Skills.jsx';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
       </section>
       <section id="About">
         <About />
+      </section>
+      <section id="Skills">
+        <Skills />
       </section>
       <section id="Projects">
         <Projects />

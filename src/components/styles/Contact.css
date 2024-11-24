@@ -1,11 +1,60 @@
-.contact-container {
-    flex-direction: column;
+.footer {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.buttons {
-    flex-direction: row;
+.footer-name {
+    font-weight: bold;
+    flex-direction: column;
+    font-family: 'Fira Code', Courier, monospace;
+}
+
+.footer-navbar {
+    flex-direction: column !important;
+    margin: 0 !important;
+    padding-left: 5% !important;
+    width: auto !important;
+}
+
+.link-list {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em !important;
+}
+
+.links-title {
+    margin-bottom: 0.5em !important;
+    font-family: 'Fira Code', Courier, monospace;
+}
+
+.contact-title {
+    font-family: 'Fira Code', Courier, monospace;
+    margin-bottom: 0.5em;
 }
 
 .contact-info {
-    flex-direction: row;
+    flex-direction: column;
+    font-size: 1.1em;;
+}
+
+.contact-container {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: black;
+}
+
+.bi-linkedin {
+    margin-right: 1em;
 }
