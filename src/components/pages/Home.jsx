@@ -20,7 +20,7 @@ export const Home = () => {
               <span>Haroline</span>
             </h1>
           </div>
-          <p className="subtitle">Aspiring {careers}</p>
+          <p className="subtitle">Aspiring {careers[0]}</p>
         </div>
       </div>
       <a href="#About" className="learn-more">Learn More</a>
