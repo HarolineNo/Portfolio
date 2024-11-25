@@ -14,7 +14,7 @@
             "src": "src/assets/images/quiz.png",
             "title": "Inventory Tracker",
             "tech": "Django, Python, HTML/CSS, JavaScript, Bootstrap",
-            "description": "A multi-page full-stack restaurant inventory management system with user authentication that can store over 50 items. Includes key features such as adding, deleting, and editing items, tracking ingredients, monitoring finances, managing purchases, etc. ",
+            "description": "A multi-page full-stack restaurant inventory management system with user authentication that can store over 50 items. Includes key features such as adding, deleting, and editing items, tracking ingredients, monitoring finances, managing purchases, etc.",
             "link": "https://github.com/HarolineNo/Inventory-Tracker.git",
             "demoLink": "https://github.com/HarolineNo/Python-Game.git"
         },
