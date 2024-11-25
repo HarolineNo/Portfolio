@@ -13,10 +13,16 @@
 }
 
 .skill-img {
+    display: flex;
     margin-right: 1rem;
-    height: 4em;
-    width: 4.2em;
-    border-radius: 15px;
-    border: 2px solid blue;
+    height: 6em;
+    width: 6.2em;
     padding: 10%;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background: 
+        linear-gradient(to right, black, black), 
+        linear-gradient(140deg, rgb(255, 255, 255) , rgb(85, 218, 255)); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
 }
