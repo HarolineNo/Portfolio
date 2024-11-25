@@ -2,6 +2,28 @@
     display: flex;
     flex-direction: column;
     color: white;
+    border-top: 1px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgb(144, 231, 255, 0.5), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)); 
+    border-image-slice: 1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.skills-title {
+    margin-left: 5%;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Fira Code', Courier, monospace;
+}
+
+.skills-box {
+    background-color: #00d6d6;
+    width: 8%;
+    height: 1.5em;
+    margin-top: -35px;
+    margin-left: 10%;
 }
 
 .skills-list {
@@ -15,8 +37,8 @@
 .skill-img {
     display: flex;
     margin-right: 1rem;
-    height: 6em;
-    width: 6.2em;
+    height: 15vh;
+    width: 90%;
     padding: 10%;
     border: 2px solid transparent;
     border-radius: 20px;

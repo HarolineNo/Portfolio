@@ -3,7 +3,10 @@ import '../styles/Skills.css';
 export const Skills = () => {
   return (
     <div className="skills-section">
-      <h1>Skills</h1>
+      <div>
+        <h1 className="skills-title">Skills</h1>
+        <div className="skills-box"></div>
+      </div>
       <div className="skills-list">
         <div className="skill">
           <img src='src\assets\images\html-5.png' alt='HTML' className="skill-img" />
