@@ -1,41 +1,43 @@
-.section {
-    display: flex !important; 
-    flex-direction: column !important;
-    align-items: center !important;
-    padding: 1.5rem !important;
-}
-.box {
-    display: flex !important;
-    width: 100% !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    margin-bottom: 1rem !important;
-}
-.btn-github {
-    background-color: aqua !important;
-    border-radius: 0 !important;
-}
-.btn-github:hover {
-    background-color: rgb(117, 255, 255) !important;
-}
-.cards {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    width: 100%;
-}
-.carousel-image {
-    display: block !important;
-    width: 100% !important;
-    height: auto !important;
-    border-radius: 10px !important;
-}
-.custom-carousel {
-    width: 100%; 
-}
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.7); 
-    border-radius: 10px;
-    padding: 1rem;
-    color: white;
+@media screen and (min-width: 600px) {    
+    .section {
+        display: flex !important; 
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 1.5rem !important;
+    }
+    .box {
+        display: flex !important;
+        width: 100% !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        margin-bottom: 1rem !important;
+    }
+    .btn-github {
+        background-color: aqua !important;
+        border-radius: 0 !important;
+    }
+    .btn-github:hover {
+        background-color: rgb(117, 255, 255) !important;
+    }
+    .cards {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100%;
+    }
+    .carousel-image {
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+        border-radius: 10px !important;
+    }
+    .custom-carousel {
+        width: 100%; 
+    }
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.7); 
+        border-radius: 10px;
+        padding: 1rem;
+        color: white;
+    }
 }

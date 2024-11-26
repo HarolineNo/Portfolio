@@ -1,59 +1,61 @@
-.projects-section {
-    display: flex; 
-    flex-direction: column; 
-    height: 100vh;
-    margin: 5%;    
-}
+@media screen and (min-width: 600px) {
+    .projects-section {
+        display: flex; 
+        flex-direction: column; 
+        height: 50rem;
+        margin: 5%;  
+    }
 
-.back-btn {
-    background-color: blue;
-    color: white;
-    padding: 1rem 0.5;
-    border-radius: 10px;
-    border: none;
-    margin-right: 1rem;
-}
+    .back-btn {
+        background-color: blue;
+        color: white;
+        padding: 1rem 0.5;
+        border-radius: 10px;
+        border: none;
+        margin-right: 1rem;
+    }
 
-.next-btn {
-    background-color: blue;
-    color: white;
-    padding: 1rem 0.5;
-    border-radius: 10px;
-    border: none;
-}
+    .next-btn {
+        background-color: blue;
+        color: white;
+        padding: 1rem 0.5;
+        border-radius: 10px;
+        border: none;
+    }
 
-.projects-title {
-    font-size: 5.5vh;
-    color: white;
-    font-family: 'Fira Code', Courier, monospace;
-}
+    .projects-title {
+        font-size: 5.5vh;
+        color: white;
+        font-family: 'Fira Code', Courier, monospace;
+    }
 
-.project-card {
-    position: absolute;
-    width: 30%;
-    padding: 1rem;
-    left: 50%; 
-}
+    .project-card {
+        position: absolute;
+        width: 40%;
+        padding: 1rem;
+        left: 50%; 
+    }
 
-.cards {
-    border-radius: 20px !important;
-    border: none !important;
-    background-image: linear-gradient(135deg, white, #476fff) !important;
-}
+    .cards {
+        border-radius: 20px !important;
+        border: none !important;
+        background-image: linear-gradient(135deg, white, #476fff) !important;
+    }
 
-.card-btn-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    .card-btn-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.card-btn {
-    background-image: linear-gradient(135deg, #5271ff, #3e4eff) !important;
-    border-radius: 30px !important; 
-    padding: 2% 5% !important;
-    border: none !important;
-}
+    .card-btn {
+        background-image: linear-gradient(135deg, #5271ff, #3e4eff) !important;
+        border-radius: 30px !important; 
+        padding: 2% 5% !important;
+        border: none !important;
+    }
 
-.card-btn:hover {
-    background-color: #3e52ff !important;
+    .card-btn:hover {
+        background-color: #3e52ff !important;
+    }
 }

@@ -1,39 +1,24 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
 import Card from "react-bootstrap/Card";
 import Button from 'react-bootstrap/Button';
 import data from "../../data/index.json";
 import "../styles/Projects.css";
+import { MiniProjects } from "./MiniProjects";
 
 export const Projects = () => {
-  const [positionIndexes, setPositionIndexes] = useState([0, 1, 2]);
-
-  const handleNext = () => {
-    setPositionIndexes((prevIndexes) =>
-      prevIndexes.map((prevIndex) => (prevIndex + 1) % data.projects.length)
-    );
-  };
-
-  const handleBack = () => {
-    setPositionIndexes((prevIndexes) =>
-      prevIndexes.map(
-        (prevIndex) =>
-          (prevIndex - 1 + data.projects.length) % data.projects.length
-      )
-    );
-  };
+  const positionIndexes = [0, 1, 2];
 
   const positions = ["center", "left", "right"];
 
   const cardVariants = {
     center: { x: "-50%", scale: 1, zIndex: 5, opacity: 1 },
-    left: { x: "30%", scale: 0.8, zIndex: 2, opacity: 0.5 },
-    right: { x: "-130%", scale: 0.8, zIndex: 2, opacity: 0.5 },
+    left: { x: "-130%", scale: 0.8, zIndex: 2, opacity: 0.5 },
+    right: { x: "30%", scale: 0.8, zIndex: 2, opacity: 0.5 },
   };
 
   return (
-    <div className="projects-section">
-      <h2 className="projects-title">My Projects</h2>
+    <><div className="projects-section">
+      <h2 className="projects-title">Projects</h2>
       <div className="carousel">
         {data.projects.map((item, index) => (
           <motion.div
@@ -47,9 +32,8 @@ export const Projects = () => {
               <Card.Img
                 variant="top"
                 src={item.src}
-                alt={item.title} 
-                style={{ height: "20rem", borderRadius: "10px", padding: "10px" }} 
-              />
+                alt={item.title}
+                style={{ height: "20em", borderRadius: "10px", padding: "10px" }} />
               <Card.Body>
                 <Card.Title>{item.title}</Card.Title>
                 <Card.Text style={{ fontStyle: "italic", color: "rgb(60, 60, 60)" }}>{item.tech}</Card.Text>
@@ -63,10 +47,7 @@ export const Projects = () => {
           </motion.div>
         ))}
       </div>
-      <div className="carousel-btns">
-        <button className="back-btn" onClick={handleBack}>Back</button>
-        <button className="next-btn" onClick={handleNext}>Next</button>
-      </div>
     </div>
+    <MiniProjects /></>
   );
 };

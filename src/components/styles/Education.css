@@ -1,33 +1,35 @@
-.education-section {
-    background-image: url('src/assets/images/bg1.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 30px;
-    margin: auto;
-    width: 85%;
-    padding: 1%;
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    margin-top: 3%;
-}
+@media screen and (min-width: 600px) {    
+    .education-section {
+        background-image: url('src/assets/images/bg1.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 30px;
+        margin: auto;
+        width: 85%;
+        padding: 1%;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        margin-top: 3%;
+    }
 
-.education-content {
-    padding: 2%;
-}
+    .education-content {
+        padding: 2%;
+    }
 
-.education-item {
-    flex-direction: column;
-    color: white;
-    display: flex;
-}
+    .education-item {
+        flex-direction: column;
+        color: white;
+        display: flex;
+    }
 
-.education-title {
-    color: white;
-    text-align: center;
-}
+    .education-title {
+        color: white;
+        text-align: center;
+    }
 
-.date {
-    font-style: italic;
-    font-size: 1.3em;
+    .date {
+        font-style: italic;
+        font-size: 1.3em;
+    }
 }
