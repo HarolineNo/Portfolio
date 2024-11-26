@@ -10,31 +10,25 @@ export const MiniProjects = () => {
       </div>
 
       <div className="mini-container-top">
-        {data?.miniProjects?.map((item, index) => (
-          <div key={index} className="mini-cards">
-            <img src={item.src} className="mini-img"/>
+        {data.miniProjects.map((item, index) => (
+          <div key={`top-${index}`} className="mini-cards">
+            <img src={item.src} className="mini-img" alt={item.title} />
             <div className="card-info">
-              <h3 className="miniProject-title">{item.title}</h3>
-              <p className="mini-tech">{item.tech}</p>
-              <button href={item.link} target="_blank" rel="noopener noreferrer" className="mini-btn">Code</button>
+              <p className="miniProject-title">{item.title}: {item.tech}</p>
             </div>
           </div>
         ))}
       </div>
-
       <div className="mini-container-bottom">
-        {data?.miniProjects1?.map((item, index) => (
-          <div key={index} className="mini-cards">
-            <img src={item.src} className="mini-img"/>
+        {data.miniProjects.map((item, index) => (
+          <div key={`top-${index}`} className="mini-cards">
+            <img src={item.src} className="mini-img" alt={item.title} />
             <div className="card-info">
-              <h3 className="miniProject-title">{item.title}</h3>
-              <p className="mini-tech">{item.tech}</p>
-              <button href={item.link} target="_blank" rel="noopener noreferrer" className="mini-btn">Code</button>
+              <p className="miniProject-title">{item.title}: {item.tech}</p>
             </div>
           </div>
         ))}
       </div>
     </section>
   );
-}
-
+};
