@@ -9,11 +9,12 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .skills-title {
     margin-left: 5%;
-    font-size: 3rem;
+    font-size: 5.5vh;
     color: white;
     font-family: 'Fira Code', Courier, monospace;
 }
