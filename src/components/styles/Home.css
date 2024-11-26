@@ -1,6 +1,6 @@
 @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
     .container {
         display: flex;
         flex-direction: column; 
@@ -23,7 +23,7 @@
     .subtitle {
         color: white !important;
         font-family: 'Courier New', Courier, monospace;
-        font-size: 1.5rem !important;
+        font-size: 1.5em !important;
         margin-top: 1%;
     }
 

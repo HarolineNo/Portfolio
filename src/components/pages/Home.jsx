@@ -42,7 +42,7 @@ export const Home = () => {
     <section className="container">
       <div className="terminal-container">
         <div className="terminal">
-          <i className="bi bi-circle-fill" style={{ color: "rgb(222, 47, 47)", padding: 5 }}></i>
+          <i className="bi bi-circle-fill" style={{ color: "rgb(222, 47, 47)", padding: 5, marginLeft: 5 }}></i>
           <i className="bi bi-circle-fill" style={{ color: "rgb(240, 192, 48)", padding: 5 }}></i>
           <i className="bi bi-circle-fill" style={{ color: "rgb(96, 209, 126)", padding: 5 }}></i>
         </div>

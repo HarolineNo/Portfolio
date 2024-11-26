@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {    
+@media screen and (min-width: 500px) {    
     .skills-section {
         display: flex;
         flex-direction: column;

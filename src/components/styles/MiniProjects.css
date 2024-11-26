@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {    
+@media screen and (min-width: 500px) {    
     .section {
         display: flex; 
         flex-direction: column;
@@ -15,7 +15,7 @@
     .mini-cards {
         flex: 0 0 auto;
         width: 60%;
-        height: 11rem;
+        height: 11.5rem;
         margin-right: 2%;
         background-color: white;
     }
