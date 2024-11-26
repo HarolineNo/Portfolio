@@ -12,8 +12,8 @@ export const About = () => {
         <p className="about">
           Computer Science second-year student with a foundation in programming languages such as Python and Java, an interest in all-things tech and seeking internships in software engineering. Developed full-stack projects utilizing tools like React Native and Django, currently building projects that utilize other languages and frameworks. Eager to apply and expand technical expertise in real-world applications and planning on future projects in robotics. 
         </p>
-        <div className="about-image">
-          <img src='src\assets\images\quiz.png' />
+        <div className="about-image-container">
+          <img src='src\assets\images\computer.png' className="about-image"/>
         </div>
       </div>
       <Education />
