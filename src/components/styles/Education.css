@@ -26,10 +26,16 @@
     .education-title {
         color: white;
         text-align: center;
+        font-family: 'Fira Code', Courier, monospace;
+    }
+
+    .education-item {
+        font-family:'Courier New', Courier, monospace;
     }
 
     .date {
         font-style: italic;
-        font-size: 1.3em;
+        font-size: 1.1em;
+        font-family: 'Courier New', Courier, monospace;
     }
 }

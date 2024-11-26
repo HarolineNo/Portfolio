@@ -6,7 +6,6 @@ export const MiniProjects = () => {
     <section className="section">
       <div>
         <h2 className="mini-title">Mini-Projects</h2>
-        <div className="mini-box"></div>
       </div>
 
       <div className="mini-container-top">
