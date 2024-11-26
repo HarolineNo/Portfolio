@@ -11,14 +11,17 @@ export const Projects = () => {
   const positions = ["center", "left", "right"];
 
   const cardVariants = {
-    center: { x: "-50%", scale: 1, zIndex: 5, opacity: 1 },
-    left: { x: "-130%", scale: 0.8, zIndex: 2, opacity: 0.5 },
-    right: { x: "30%", scale: 0.8, zIndex: 2, opacity: 0.5 },
+    center: { x: "-50%", scale: 1, zIndex: 5 },
+    left: { x: "-140%", scale: 0.8, zIndex: 2 },
+    right: { x: "40%", scale: 0.8, zIndex: 2 }
   };
 
   return (
     <><div className="projects-section">
-      <h2 className="projects-title">Projects</h2>
+      <div>
+        <h2 className="projects-title">Projects</h2>
+        <div className="projects-box"></div>
+      </div>
       <div className="carousel">
         {data.projects.map((item, index) => (
           <motion.div

@@ -29,6 +29,14 @@
         font-family: 'Fira Code', Courier, monospace;
     }
 
+    .projects-box {
+        background-color: #00c1c1;
+        width: 10%;
+        height: 1.5em;
+        margin-top: -33px;
+        margin-left: 6%;
+    }
+
     .project-card {
         position: absolute;
         width: 40%;

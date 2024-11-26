@@ -1,36 +1,38 @@
 import data from '../../data/index.json';
 import '../styles/MiniProjects.css';
-import { useState } from 'react';
-import Button from'react-bootstrap/Button';
-import Carousel from 'react-bootstrap/Carousel';
 
 export const MiniProjects = () => {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
-  };
-
   return (
     <section className="section">
-      <div className="box">
-        <h2>Mini-Projects</h2>
+      <div>
+        <h2 className="mini-title">Mini-Projects</h2>
+        <div className="mini-box"></div>
       </div>
 
-      <div className="cards">
-        <Carousel activeIndex={index} onSelect={handleSelect} className="carousel">
-            {data?.miniProjects?.map((item, index) => (
-              <Carousel.Item key={index}>
-                <img className="carousel-image" src={item.src} />
-                <Carousel.Caption className="carousel-caption">
-                  <h3>{item.title}</h3>
-                  <h4 style={{ fontStyle: 'italic' }}>{item.tech}</h4>
-                  <p>{item.description}</p>
-                  <Button href={item.link} target="_blank" rel="noopener noreferrer">Source Code</Button>
-                </Carousel.Caption>
-              </Carousel.Item>
-            ))}
-        </Carousel>
+      <div className="mini-container-top">
+        {data?.miniProjects?.map((item, index) => (
+          <div key={index} className="mini-cards">
+            <img src={item.src} className="mini-img"/>
+            <div className="card-info">
+              <h3 className="miniProject-title">{item.title}</h3>
+              <p className="mini-tech">{item.tech}</p>
+              <button href={item.link} target="_blank" rel="noopener noreferrer" className="mini-btn">Code</button>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="mini-container-bottom">
+        {data?.miniProjects1?.map((item, index) => (
+          <div key={index} className="mini-cards">
+            <img src={item.src} className="mini-img"/>
+            <div className="card-info">
+              <h3 className="miniProject-title">{item.title}</h3>
+              <p className="mini-tech">{item.tech}</p>
+              <button href={item.link} target="_blank" rel="noopener noreferrer" className="mini-btn">Code</button>
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );

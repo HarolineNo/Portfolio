@@ -56,7 +56,9 @@
             "title": "Music Player",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/Music-player.git"
-        },
+        }
+    ],
+    "miniProjects1": [
         {
             "id": "5",
             "src": "src/assets/images/quiz.png",
