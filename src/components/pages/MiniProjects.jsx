@@ -19,7 +19,7 @@ export const MiniProjects = () => {
         ))}
       </div>
       <div className="mini-container-bottom">
-        {data.miniProjects.map((item, index) => (
+        {data.miniProjects2.map((item, index) => (
           <div key={`top-${index}`} className="mini-cards">
             <img src={item.src} className="mini-img" alt={item.title} />
             <div className="card-info">

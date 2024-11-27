@@ -35,10 +35,12 @@
     .about-image-container {
         width: 40%;
         animation: image-movement 5s ease-in-out infinite;
+        display: flex;
+        justify-content: center;
     }
 
     .about-image {
-        width: 50%;
+        height: 30vh;
     }
 
     @keyframes image-movement{

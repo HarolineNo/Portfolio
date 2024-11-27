@@ -31,58 +31,58 @@
     "miniProjects": [
         {
             "id": "1",
-            "src": "src/assets/images/quiz.png",
+            "src": "src/assets/images/ticTacToe.png",
             "title": "Tic-Tac-Toe",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/tic-tac-toe.git"
         },
         {
             "id": "2",
-            "src": "src/assets/images/quiz.png",
+            "src": "src/assets/images/JScalculator.png",
             "title": "Calculator",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/JS-Calculator.git"
         },
         {
             "id": "3",
-            "src": "src/assets/images/quiz.png",
-            "title": "Flappy Bird",
-            "tech": "Java",
-            "link": "https://github.com/HarolineNo/flappy-bird.git"
+            "src": "src/assets/images/rpg.png",
+            "title": "RPG",
+            "tech": "JavaScript, HTML, CSS",
+            "link": "https://github.com/HarolineNo/javascript-rpg.git"
         },
         {
             "id": "4",
-            "src": "src/assets/images/quiz.png",
-            "title": "Music Player",
-            "tech": "JavaScript, HTML, CSS",
-            "link": "https://github.com/HarolineNo/Music-player.git"
-        }
-    ],
-    "miniProjects1": [
-        {
-            "id": "5",
-            "src": "src/assets/images/quiz.png",
+            "src": "src/assets/images/rockPaper.png",
             "title": "Rock Paper Scissors",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/Mini-Project-rock-paper-scissors.git"
+        }
+    ],
+    "miniProjects2": [
+        {
+            "id": "5",
+            "src": "src/assets/images/musicPlayer.png",
+            "title": "Music Player",
+            "tech": "JavaScript, HTML, CSS",
+            "link": "https://github.com/HarolineNo/Music-player.git"
         },
         {
             "id": "6",
-            "src": "src/assets/images/quiz.png",
+            "src": "src/assets/images/calories.png",
             "title": "Calorie Counter",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/Calorie-counter.git"
         },
         {
             "id": "7",
-            "src": "src/assets/images/quiz.png",
-            "title": "RPG",
-            "tech": "JavaScript, HTML, CSS",
-            "link": "https://github.com/HarolineNo/javascript-rpg.git"
+            "src": "src/assets/images/flappy.png",
+            "title": "Flappy Bird",
+            "tech": "Java",
+            "link": "https://github.com/HarolineNo/flappy-bird.git"
         },
         {
             "id": "8",
-            "src": "src/assets/images/quiz.png",
+            "src": "src/assets/images/qrCode.png",
             "title": "QR Code",
             "tech": "HTML, CSS, SCSS",
             "link": "https://github.com/HarolineNo/Qr-Code.git"
