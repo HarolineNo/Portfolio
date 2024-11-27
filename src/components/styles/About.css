@@ -20,9 +20,8 @@
     .about {
         color: white;
         font-family: 'Courier New', Courier, monospace;
-        width: 60%;
-        font-size: 2.5vh;
-        margin-top: 2%;
+        width: 70%;
+        font-size: 3.5vh;
     }
 
     .about-container {
@@ -33,24 +32,25 @@
     }
 
     .about-image-container {
-        width: 40%;
+        width: 30%;
         animation: image-movement 5s ease-in-out infinite;
         display: flex;
         justify-content: center;
     }
 
     .about-image {
-        height: 30vh;
+        height: 65vh;
     }
 
     .image-background {
-        background-color: white;
-        border-radius: 50%; 
+        height: 30vh;
+        width: 30vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 35vh; 
-        height: 35vh; 
+        border-radius: 50%;
+        background-image: url("src/assets/images/space.jpg");
+        background-size: cover;
     }
 
     @keyframes image-movement{

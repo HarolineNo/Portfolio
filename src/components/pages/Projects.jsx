@@ -36,7 +36,7 @@ export const Projects = () => {
                 variant="top"
                 src={item.src}
                 alt={item.title}
-                style={{ height: "20em", borderTopLeftRadius: "30px", borderTopRightRadius: "30px" }} />
+                style={{ height: "22em", borderRadius: "30px", padding: "1rem" }} />
               <Card.Body>
                 <Card.Title style={{ color: "white" }}>{item.title}</Card.Title>
                 <Card.Text style={{ fontStyle: "italic", color: "white" }}>{item.tech}</Card.Text>
