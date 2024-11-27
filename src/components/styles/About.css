@@ -43,6 +43,16 @@
         height: 30vh;
     }
 
+    .image-background {
+        background-color: white;
+        border-radius: 50%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35vh; 
+        height: 35vh; 
+    }
+
     @keyframes image-movement{
         0%, 100% { transform: translateY(0); }
         50% { transform: translateY(-10%); }

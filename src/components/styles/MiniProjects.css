@@ -14,8 +14,8 @@
     }
     .mini-cards {
         flex: 0 0 auto;
-        width: 60%;
-        height: 11.5rem;
+        width: 50%;
+        height: 15rem;
         margin-right: 2%;
         background-color: white;
     }
@@ -32,17 +32,17 @@
         display: flex;
         margin-bottom: 3rem;
         flex-direction: row;
-        animation: moveLeft 20s linear infinite;
+        animation: moveLeft 40s linear infinite;
     }
     .mini-container-bottom {
         display: flex;
         flex-direction: row;
         margin-bottom: 3%;
-        animation: moveRight 20s linear infinite;
+        animation: moveRight 40s linear infinite;
     }
     .mini-img {
-        height: 8em;
-        width: fit-content;
+        height: 12rem;
+        width: 100%;
     }
     .mini-container-bottom {
         display: flex;
@@ -51,11 +51,11 @@
 
     @keyframes moveLeft {
         0% { transform: translateX(0%); }
-        100% { transform: translateX(-100%); }
+        100% { transform: translateX(-200%); }
     }
       
     @keyframes moveRight {
         100% { transform: translateX(0%); } 
-        0% { transform: translateX(-100%); }
+        0% { transform: translateX(-200%); }
     }
 }

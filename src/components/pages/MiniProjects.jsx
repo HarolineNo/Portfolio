@@ -17,8 +17,24 @@ export const MiniProjects = () => {
             </div>
           </div>
         ))}
+        {data.miniProjects.map((item, index) => (
+          <div key={`top-${index}`} className="mini-cards">
+            <img src={item.src} className="mini-img" alt={item.title} />
+            <div className="card-info">
+              <p className="miniProject-title">{item.title}: {item.tech}</p>
+            </div>
+          </div>
+        ))}
       </div>
       <div className="mini-container-bottom">
+        {data.miniProjects2.map((item, index) => (
+          <div key={`top-${index}`} className="mini-cards">
+            <img src={item.src} className="mini-img" alt={item.title} />
+            <div className="card-info">
+              <p className="miniProject-title">{item.title}: {item.tech}</p>
+            </div>
+          </div>
+        ))}
         {data.miniProjects2.map((item, index) => (
           <div key={`top-${index}`} className="mini-cards">
             <img src={item.src} className="mini-img" alt={item.title} />
