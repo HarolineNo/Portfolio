@@ -11,16 +11,16 @@
         },
         {
             "id": "2",
-            "src": "src/assets/images/quiz.png",
+            "src": "src/assets/images/inventory.png",
             "title": "Inventory Tracker",
             "tech": "Django, Python, HTML/CSS, JavaScript, Bootstrap",
             "description": "A restaurant inventory management system with features such as user authentication, managing ingredients, menu, purchases, and monitoring finances.",
             "link": "https://github.com/HarolineNo/Inventory-Tracker.git",
-            "demoLink": "https://github.com/HarolineNo/Python-Game.git"
+            "demoLink": "https://youtu.be/5KguKGswCCw"
         },
         {
             "id": "3",
-            "src": "src/assets/images/quiz.png",
+            "src": "src/assets/images/tunescape.jpg",
             "title": "Tunescape",
             "tech": "JavaScript, React Native, CSS, Spotify API",
             "description": "I'm currently developing a music app that uses an API to curate personalized playlists for users based on moods, whether for relaxation, focus, or motivation, tailored to user preferences.",

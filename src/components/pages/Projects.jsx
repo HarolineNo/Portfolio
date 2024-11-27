@@ -36,11 +36,11 @@ export const Projects = () => {
                 variant="top"
                 src={item.src}
                 alt={item.title}
-                style={{ height: "20em", borderRadius: "10px" }} />
+                style={{ height: "20em", borderTopLeftRadius: "30px", borderTopRightRadius: "30px" }} />
               <Card.Body>
-                <Card.Title>{item.title}</Card.Title>
-                <Card.Text style={{ fontStyle: "italic", color: "rgb(60, 60, 60)" }}>{item.tech}</Card.Text>
-                <Card.Text>{item.description}</Card.Text>
+                <Card.Title style={{ color: "white" }}>{item.title}</Card.Title>
+                <Card.Text style={{ fontStyle: "italic", color: "white" }}>{item.tech}</Card.Text>
+                <Card.Text style={{ color: "white" }}>{item.description}</Card.Text>
                 <div className="card-btn-container">
                   <Button href={item.demoLink} target="_blank" rel="noopener noreferrer" className="card-btn">Demo</Button>
                   <Button href={item.link} target="_blank" rel="noopener noreferrer" className="card-btn">Code</Button>
