@@ -21,7 +21,9 @@
     }
     .card-info {
         display: flex;
-        background-color: rgba(7, 0, 71, 0.2);
+        background-image: url("src/assets/images/galaxy.jpg");
+        background-size: cover;
+        color: white;
         padding: 0.5rem;
         justify-content: center;
         font-family: 'Courier New', Courier, monospace;

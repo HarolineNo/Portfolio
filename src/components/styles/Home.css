@@ -29,6 +29,7 @@
 
     .learn-more {
         color: white;
+        position: relative;
         border-bottom: 3px solid #00ffff;
         margin: auto;
         font-size: 1.25rem;

@@ -18,9 +18,10 @@ export const Projects = () => {
 
   return (
     <><div className="projects-section">
-      <div>
+      <div className="title-section">
         <h2 className="projects-title">Projects</h2>
         <div className="projects-box"></div>
+        <Button href="https://github.com/HarolineNo" target="_blank" rel="noopener noreferrer" className="github-btn">View My Github</Button>
       </div>
       <div className="carousel">
         {data.projects.map((item, index) => (
