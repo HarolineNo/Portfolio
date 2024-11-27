@@ -42,6 +42,7 @@
     }
     .mini-img {
         height: 8em;
+        width: fit-content;
     }
     .mini-container-bottom {
         display: flex;

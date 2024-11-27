@@ -2,12 +2,12 @@
     "projects": [
         {
             "id": "1",
-            "src": "src/assets/images/quiz.png",
+            "src": "src/assets/images/highwayDash.png",
             "title": "Highway Dash",
             "tech": "Python, Pygame, Jupyter Notebook",
             "description": "A 2D driving game where players navigate through traffic while avoiding other cars. It progressively gets harder as you play and keeps track of your score on a leaderboard.",
             "link": "https://github.com/HarolineNo/Python-Game.git",
-            "demoLink": "https://github.com/HarolineNo/Python-Game.git"
+            "demoLink": "https://youtu.be/nivANO042ig"
         },
         {
             "id": "2",
