@@ -58,7 +58,10 @@ export const Home = () => {
           <p className="subtitle">Aspiring {text}</p>
         </div>
       </div>
-      <a href="#About" className="learn-more">Learn More</a>
+      <div className="learn-btns">
+        <a href="#About" className="learn-more">See More</a>
+        <a href="https://docs.google.com/document/d/1JIxje_q7zQ5zDT8pIUB6zYrX9MDw_78dzD9GwSFQ2rY/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="resume">Resume</a>
+      </div>
     </section>
   )
 }

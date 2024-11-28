@@ -40,7 +40,7 @@
     }
 
     .github-btn:hover {
-        border-color: #00c1c1 !important;
+        border-color: #007373 !important;
     }
 
     .title-section {
@@ -63,7 +63,7 @@
     }
 
     .card-btn {
-        background-image: linear-gradient(135deg, rgb(0, 225, 255), rgb(0, 22, 102)) !important;
+        background-image: linear-gradient(135deg, rgb(144, 242, 255), rgb(0, 22, 102)) !important;
         color: black !important;
         border-radius: 30px !important; 
         padding: 2% 5% !important;

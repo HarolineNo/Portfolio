@@ -27,11 +27,10 @@
         margin-top: 1%;
     }
 
-    .learn-more {
+    .learn-more, .resume {
         color: white;
         position: relative;
         border-bottom: 3px solid #00ffff;
-        margin: auto;
         font-size: 1.25rem;
         margin-bottom: 3%;
         padding: 0.25rem;
@@ -45,6 +44,13 @@
         padding-bottom: 2%;
         margin: auto;
         width: 100%;
+    }
+
+    .learn-btns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 40%;
     }
 
     .clear-block {

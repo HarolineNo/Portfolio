@@ -9,10 +9,10 @@ export const Contact = () => {
         <h2>Haroline Noesi</h2>
         <div className="social-media">
           <a href="https://www.linkedin.com/in/harolinen/" target="_blank" rel="noopener noreferrer">
-            <i className="bi bi-linkedin"></i>
+            <i className="bi bi-linkedin" style={{color: "white"}}></i>
           </a>
           <a href="https://github.com/HarolineNo" target="_blank" rel="noopener noreferrer">
-            <i className="bi bi-github" style={{backgroundColor: "white"}}></i>
+            <i className="bi bi-github" style={{color: "white"}}></i>
           </a>
         </div>
       </div>
