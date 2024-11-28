@@ -59,3 +59,65 @@
         50% { transform: translateY(-10%); }
     }
 }
+
+@media screen and (min-width: 339px) {
+    .about-section {
+        margin: 5%;
+    }
+
+    .title {
+        font-size: 4vh;
+        color: white;
+        font-family: 'Fira Code', Courier, monospace;
+    }
+
+    .title-box {
+        background-color: #00c1c1;
+        width: 20%;
+        height: 1.5em;
+        margin-top: -33px;
+        margin-left: 5%;
+    }
+
+    .about {
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        font-size: 2vh;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .about-image-container {
+        animation: image-movement 5s ease-in-out infinite;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-image {
+        height: 35vh;
+        padding: 1rem;
+    }
+
+    .image-background {
+        height: 20vh;
+        width: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-image: url("src/assets/images/galaxy.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    @keyframes image-movement{
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10%); }
+    }
+}
+

@@ -37,6 +37,10 @@
         text-decoration: none;
     }
 
+    .learn-more, .resume:hover {
+        border-color: #007878;
+    }
+
     .terminal-container {
         padding-left: 5%;
         padding-right: 5%;
@@ -124,7 +128,7 @@
     }
 }
 
-@media screen and (min-width: 340px) {
+@media screen and (min-width: 339px) {
     .container {
         display: flex;
         flex-direction: column; 
@@ -159,6 +163,14 @@
         margin-bottom: 3%;
         padding: 0.25em;
         text-decoration: none;
+    }
+
+    .resume:hover {
+        border-color: #007878;
+    }
+
+    .learn-more:hover {
+        border-color: #007878;
     }
 
     .terminal-container {
