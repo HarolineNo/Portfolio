@@ -23,6 +23,7 @@
         flex-direction: column;
         color: white;
         display: flex;
+        font-family:'Courier New', Courier, monospace;
     }
 
     .education-title {
@@ -31,13 +32,56 @@
         font-family: 'Fira Code', Courier, monospace;
     }
 
-    .education-item {
-        font-family:'Courier New', Courier, monospace;
-    }
-
     .date {
         font-style: italic;
         font-size: 1.1em;
         font-family: 'Courier New', Courier, monospace;
     }
 }
+
+@media screen and (min-width: 339px) {    
+    .education-section {
+        background-image: url('src/assets/images/bg1.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 30px;
+        margin: auto;
+        width: 85%;
+        padding: 1%;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        margin-top: 3%;
+    }
+
+    .education-content {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .degree, .school, .minors {
+        font-size: 1em;
+    }
+
+    .education-item {
+        flex-direction: column;
+        color: white;
+        display: flex;
+        font-family:'Courier New', Courier, monospace;
+    }
+
+    .education-title {
+        color: white;
+        text-align: center;
+        font-family: 'Fira Code', Courier, monospace;
+        font-size: 1.3em;
+    }
+
+    .date {
+        font-style: italic;
+        font-size: 0.9em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+

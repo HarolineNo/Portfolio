@@ -51,3 +51,58 @@
         background-origin: padding-box, border-box;
     }
 }
+
+@media screen and (min-width: 339px) {    
+    .skills-section {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        border-top: 1px solid transparent;
+        border-bottom: 2px solid transparent;
+        border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgb(144, 231, 255, 0.5), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)); 
+        border-image-slice: 1;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+
+    .skills-title {
+        margin-left: 5%;
+        font-size: 4vh;
+        color: white;
+        font-family: 'Fira Code', Courier, monospace;
+    }
+
+    .skills-box {
+        background-color: #00c1c1;
+        width: 20%;
+        height: 1.5em;
+        margin-top: -35px;
+        margin-left: 10%;
+    }
+
+    .skills-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .skill-img {
+        display: flex;
+        margin-right: 1rem;
+        height: 8vh;
+        width: 90%;
+        padding: 10%;
+        border: 2px solid transparent;
+        border-radius: 15px;
+        background: 
+            linear-gradient(to right, black, black), 
+            linear-gradient(140deg, rgb(255, 255, 255) , rgb(85, 218, 255)); 
+        background-clip: padding-box, border-box;
+        background-origin: padding-box, border-box;
+    }
+}
+
