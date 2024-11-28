@@ -52,7 +52,7 @@
     .cards {
         border-radius: 30px !important;
         border: 1px solid rgb(48, 48, 48) !important;
-        background-image: url("src/assets/images/sky.jpg") !important;
+        background-image: url("public/assets/images/sky.jpg") !important;
         background-size: cover;
     }
 
@@ -152,7 +152,7 @@
     .cards {
         border-radius: 15px !important;
         border: 1px solid rgb(48, 48, 48) !important;
-        background-image: url("src/assets/images/sky.jpg") !important;
+        background-image: url("public/assets/images/sky.jpg") !important;
         background-size: cover;
     }
 
