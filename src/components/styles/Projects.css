@@ -79,7 +79,7 @@
     .projects-section {
         display: flex; 
         flex-direction: column; 
-        height: 50rem;
+        height: 32rem;
         margin: 5% 5% 0;
     }
 

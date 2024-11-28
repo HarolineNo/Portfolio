@@ -61,3 +61,68 @@
         0% { transform: translateX(-200%); }
     }
 }
+
+@media screen and (min-width: 339px) {    
+    .section {
+        display: flex; 
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .mini-title {
+        font-size: 3vh;
+        color: rgb(190, 190, 190);
+        font-family: 'Fira Code', Courier, monospace;
+        margin-left: 3%;
+    }
+    .mini-cards {
+        flex: 0 0 auto;
+        width: 50%;
+        height: 7rem;
+        margin-right: 2%;
+        background-color: white;
+    }
+    .card-info {
+        display: flex;
+        background-color: black;
+        background-size: cover;
+        color: white;
+        padding: 0.5rem;
+        justify-content: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.6em;
+    }
+    .mini-container-top {
+        margin-top: 5%;
+        display: flex;
+        margin-bottom: 3rem;
+        flex-direction: row;
+        animation: moveLeft 40s linear infinite;
+    }
+    .mini-container-bottom {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1%;
+        animation: moveRight 40s linear infinite;
+    }
+    .mini-img {
+        height: 5rem;
+        width: 100%;
+    }
+    .mini-container-bottom {
+        display: flex;
+        flex-direction: row;
+    }
+
+    @keyframes moveLeft {
+        0% { transform: translateX(0%); }
+        100% { transform: translateX(-200%); }
+    }
+      
+    @keyframes moveRight {
+        100% { transform: translateX(0%); } 
+        0% { transform: translateX(-200%); }
+    }
+}
+
