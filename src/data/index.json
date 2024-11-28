@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": "1",
-            "src": "src/assets/images/inventory.png",
+            "src": "public/assets/images/inventory.png",
             "title": "Inventory Tracker",
             "tech": "Django, Python, HTML/CSS, JavaScript, Bootstrap",
             "description": "A restaurant inventory management system with features such as user authentication, managing ingredients, menu, purchases, and monitoring finances.",
@@ -11,7 +11,7 @@
         },
         {
             "id": "2",
-            "src": "src/assets/images/tuneSign.jpg",
+            "src": "public/assets/images/tuneSign.jpg",
             "title": "Tunescape",
             "tech": "JavaScript, React Native, CSS, Spotify API",
             "description": "I'm currently developing a music app that uses an API to curate personalized playlists for users based on moods, whether for relaxation, focus, or motivation, tailored to user preferences.",
@@ -20,7 +20,7 @@
         },
         {
             "id": "3",
-            "src": "src/assets/images/highwayDash.png",
+            "src": "public/assets/images/highwayDash.png",
             "title": "Highway Dash",
             "tech": "Python, Pygame, Jupyter Notebook",
             "description": "A 2D driving game where players navigate through traffic while avoiding other cars. It progressively gets harder as you play and keeps track of your score on a leaderboard.",
@@ -31,28 +31,28 @@
     "miniProjects": [
         {
             "id": "1",
-            "src": "src/assets/images/ticTacToe.png",
+            "src": "public/assets/images/ticTacToe.png",
             "title": "Tic-Tac-Toe",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/tic-tac-toe.git"
         },
         {
             "id": "2",
-            "src": "src/assets/images/JScalculator.png",
+            "src": "public/assets/images/JScalculator.png",
             "title": "Calculator",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/JS-Calculator.git"
         },
         {
             "id": "3",
-            "src": "src/assets/images/rpg.png",
+            "src": "public/assets/images/rpg.png",
             "title": "RPG",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/javascript-rpg.git"
         },
         {
             "id": "4",
-            "src": "src/assets/images/rockPaper.png",
+            "src": "public/assets/images/rockPaper.png",
             "title": "Rock Paper Scissors",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/Mini-Project-rock-paper-scissors.git"
@@ -61,98 +61,31 @@
     "miniProjects2": [
         {
             "id": "5",
-            "src": "src/assets/images/musicPlayer.png",
+            "src": "public/assets/images/musicPlayer.png",
             "title": "Music Player",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/Music-player.git"
         },
         {
             "id": "6",
-            "src": "src/assets/images/calories.png",
+            "src": "public/assets/images/calories.png",
             "title": "Calorie Counter",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/Calorie-counter.git"
         },
         {
             "id": "7",
-            "src": "src/assets/images/flappy.png",
+            "src": "public/assets/images/flappy.png",
             "title": "Flappy Bird",
             "tech": "Java",
             "link": "https://github.com/HarolineNo/flappy-bird.git"
         },
         {
             "id": "8",
-            "src": "src/assets/images/qrCode.png",
+            "src": "public/assets/images/qrCode.png",
             "title": "QR Code",
             "tech": "HTML, CSS, SCSS",
             "link": "https://github.com/HarolineNo/Qr-Code.git"
-        }
-    ],
-    "skills": [
-        {
-            "id": "1",
-            "title": "Python",
-            "src": "Advanced"
-        },
-        {
-            "id": "2",
-            "title": "Java",
-            "src": "Advanced"
-        },
-        {
-            "id": "3",
-            "title": "JavaScript",
-            "src": "Advanced"
-        },
-        {
-            "id": "4",
-            "title": "HTML",
-            "src": "Advanced"
-        },
-        {
-            "id": "5",
-            "title": "CSS",
-            "src": "Advanced"
-        },
-        {
-            "id": "6",
-            "title": "C#",
-            "src": "Advanced"
-        },
-        {
-            "id": "7",
-            "title": "SQL",
-            "src": "Advanced"
-        },
-        {
-            "id": "8",
-            "title": "Django",
-            "src": "Advanced"
-        },
-        {
-            "id": "9",
-            "title": "React",
-            "src": "Advanced"
-        },
-        {
-            "id": "10",
-            "title": "MySQL",
-            "src": "Advanced"
-        },
-        {
-            "id": "11",
-            "title": "Bootstrap",
-            "src": "Advanced"
-        },
-        {
-            "id": "12",
-            "title": "Git",
-            "src": "Advanced"
-        },
-        {
-            "id": "13",
-            "title": "Unity",
-            "src": "Advanced"
         }
     ]
 }
