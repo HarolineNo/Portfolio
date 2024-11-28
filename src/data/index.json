@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": "1",
-            "src": "src/assets/images/tunescape.jpg",
+            "src": "src/assets/images/tuneSign.jpg",
             "title": "Tunescape",
             "tech": "JavaScript, React Native, CSS, Spotify API",
             "description": "I'm currently developing a music app that uses an API to curate personalized playlists for users based on moods, whether for relaxation, focus, or motivation, tailored to user preferences.",

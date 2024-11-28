@@ -12,7 +12,7 @@ export const Contact = () => {
             <i className="bi bi-linkedin"></i>
           </a>
           <a href="https://github.com/HarolineNo" target="_blank" rel="noopener noreferrer">
-            <i className="bi bi-github"></i>
+            <i className="bi bi-github" style={{backgroundColor: "white"}}></i>
           </a>
         </div>
       </div>
