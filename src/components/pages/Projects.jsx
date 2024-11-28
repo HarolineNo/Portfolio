@@ -37,11 +37,11 @@ export const Projects = () => {
                 variant="top"
                 src={item.src}
                 alt={item.title}
-                style={{ height: "20em", borderRadius: "30px", padding: "1rem" }} />
+                style={{ height: "10em", borderRadius: "15px", padding: "0.25rem" }} />
               <Card.Body>
-                <Card.Title style={{ color: "white" }}>{item.title}</Card.Title>
-                <Card.Text style={{ fontStyle: "italic", color: "white" }}>{item.tech}</Card.Text>
-                <Card.Text style={{ color: "white" }}>{item.description}</Card.Text>
+                <Card.Title style={{ color: "white" }} className="tech-title">{item.title}</Card.Title>
+                <Card.Text style={{ fontStyle: "italic", color: "white" }} className="tech">{item.tech}</Card.Text>
+                <Card.Text style={{ color: "white" }} className="tech-description">{item.description}</Card.Text>
                 <div className="card-btn-container">
                   <Button href={item.demoLink} target="_blank" rel="noopener noreferrer" className="card-btn">Demo</Button>
                   <Button href={item.link} target="_blank" rel="noopener noreferrer" className="card-btn">Code</Button>
