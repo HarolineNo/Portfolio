@@ -1,6 +1,6 @@
 @media screen and (min-width: 499.99px) {    
     .education-section {
-        background-image: url('public/assets/images/bg1.jpg');
+        background-image: url('/assets/images/bg1.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 499px) {    
     .education-section {
-        background-image: url('public/assets/images/bg1.jpg');
+        background-image: url('/assets/images/bg1.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-position: center;

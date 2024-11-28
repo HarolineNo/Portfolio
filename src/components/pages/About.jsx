@@ -14,7 +14,7 @@ export const About = () => {
         </p>
         <div className="about-image-container">
           <div className="image-background">
-            <img src='src\assets\images\astro.png' className="about-image"/>
+            <img src='Portfolio/assets/images/astro.png' className="about-image"/>
           </div>
         </div>
       </div>
