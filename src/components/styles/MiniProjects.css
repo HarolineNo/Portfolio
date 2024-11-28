@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {    
+@media screen and (min-width: 499.99px) {    
     .section {
         display: flex; 
         flex-direction: column;
@@ -21,13 +21,12 @@
     }
     .card-info {
         display: flex;
-        background-image: url("src/assets/images/galaxy.jpg");
-        background-size: cover;
+        background-color: black;
         color: white;
         padding: 0.5rem;
         justify-content: center;
         font-family: 'Courier New', Courier, monospace;
-        font-size: 1.1em;
+        font-size: 1em !important;
     }
     .mini-container-top {
         margin-top: 5%;
@@ -62,7 +61,7 @@
     }
 }
 
-@media screen and (min-width: 339px) {    
+@media screen and (max-width: 499px) {    
     .section {
         display: flex; 
         flex-direction: column;

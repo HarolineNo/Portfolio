@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {    
+@media screen and (min-width: 499.99px) {    
     .skills-section {
         display: flex;
         flex-direction: column;
@@ -52,7 +52,7 @@
     }
 }
 
-@media screen and (min-width: 339px) {    
+@media screen and (max-width: 499px) {    
     .skills-section {
         display: flex;
         flex-direction: column;

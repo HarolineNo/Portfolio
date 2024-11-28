@@ -1,13 +1,23 @@
-@media screen and (min-width: 600px) {    
+@media screen and (min-width: 370.99px) {    
     .navbar {
         display: flex !important;
         margin-left: auto !important;
         width: 25rem !important;
         margin-right: 1rem !important;
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
-        padding-top: 0% !important;
-        padding-bottom: 0% !important;
-        border-radius: 3rem !important;
+        padding: 0 1rem !important;
     } 
 }
+
+@media screen and (max-width: 371px) {    
+    .navbar {
+        display: flex !important;
+        width: 20rem !important;
+        padding: 0 1rem !important;
+        font-size: 0.75em !important;
+    } 
+
+    .nav-name {
+        font-size: 1.25em !important;
+    }
+}
+

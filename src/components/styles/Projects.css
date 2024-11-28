@@ -1,4 +1,4 @@
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 719.99px) {
     .projects-section {
         display: flex; 
         flex-direction: column; 
@@ -75,12 +75,17 @@
     }
 }
 
-@media screen and (min-width: 339px) {
+@media screen and (max-width: 720px) {
     .projects-section {
         display: flex; 
         flex-direction: column; 
-        height: 32rem;
+        height: 70vh !important;
         margin: 5% 5% 0;
+    }
+
+    .img-img {
+        height: 7em !important;
+        padding: 0.25 !important;
     }
 
     .projects-title {
@@ -92,7 +97,7 @@
 
     .projects-box {
         background-color: #00c1c1;
-        width: 25%;
+        width: 20%;
         height: 1.5em;
         margin-top: 15px;
         margin-left: 6%;
@@ -104,19 +109,19 @@
         position: absolute;
         width: 48%;
         padding: 1rem;
-        left: 50%; 
+        left: 50%;
     }
 
     .tech {
-        font-size: 0.55em;
+        font-size: 0.5em;
     }
     
     .tech-title {
-        font-size: 0.7em !important;
+        font-size: 0.65em !important;
     }
     
     .tech-description {
-        font-size: 0.6em;
+        font-size: 0.55em;
     }
 
     .github-btn {
@@ -166,3 +171,4 @@
     }
 }
 
+ 

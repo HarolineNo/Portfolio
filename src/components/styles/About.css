@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 799.99px) {
     .about-section {
         margin: 5%;
     }
@@ -60,7 +60,7 @@
     }
 }
 
-@media screen and (min-width: 339px) {
+@media screen and (max-width: 799px) {
     .about-section {
         margin: 5%;
     }

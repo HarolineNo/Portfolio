@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {    
+@media screen and (min-width: 499.99px) {    
     .education-section {
         background-image: url('src/assets/images/bg1.jpg');
         background-size: cover;
@@ -24,22 +24,24 @@
         color: white;
         display: flex;
         font-family:'Courier New', Courier, monospace;
+        font-size: 1.4em;
     }
 
     .education-title {
         color: white;
         text-align: center;
         font-family: 'Fira Code', Courier, monospace;
+        font-size: 2em !important;
     }
 
     .date {
         font-style: italic;
-        font-size: 1.1em;
+        font-size: 0.75em !important;
         font-family: 'Courier New', Courier, monospace;
     }
 }
 
-@media screen and (min-width: 339px) {    
+@media screen and (max-width: 499px) {    
     .education-section {
         background-image: url('src/assets/images/bg1.jpg');
         background-size: cover;

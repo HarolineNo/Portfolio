@@ -1,6 +1,6 @@
 @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 499.99px) {
     .container {
         display: flex;
         flex-direction: column; 
@@ -37,7 +37,11 @@
         text-decoration: none;
     }
 
-    .learn-more, .resume:hover {
+    .learn-more:hover {
+        border-color: #007878;
+    }
+
+    .resume:hover {
         border-color: #007878;
     }
 
@@ -128,7 +132,7 @@
     }
 }
 
-@media screen and (min-width: 339px) {
+@media screen and (max-width: 499px) {
     .container {
         display: flex;
         flex-direction: column; 
