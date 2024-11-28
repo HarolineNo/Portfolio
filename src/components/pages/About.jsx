@@ -10,7 +10,7 @@ export const About = () => {
       </div>
       <div className="about-container">
         <p className="about">
-          Computer Science second-year student with a foundation in programming languages such as Python and Java, an interest in all-things tech and seeking internships in software engineering. Developed full-stack projects utilizing tools like React Native and Django, currently building projects that utilize other languages and frameworks. Eager to apply and expand technical expertise in real-world applications and planning on future projects in robotics. 
+          I&apos;m a second year Computer Science student at MSU. Outside of school I study on my own to become proficient at software and web development. In the future I also want to get into game development and robotics. In my free time I like learning new things, exloporing my creative side with painting, and just watching Netflix. 
         </p>
         <div className="about-image-container">
           <div className="image-background">

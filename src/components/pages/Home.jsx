@@ -49,7 +49,7 @@ export const Home = () => {
         <div className="clear-block">
           <div className="glitch">
             <h1 className="header">
-              Hey, there!
+              Hi, there!
               <br />
               {`I'm `}
               <span>Haroline</span>

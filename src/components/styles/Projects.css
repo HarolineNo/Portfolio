@@ -56,6 +56,10 @@
         background-size: cover;
     }
 
+    .img-img {
+        border-radius: 30px !important;
+    }
+
     .card-btn-container {
         display: flex;
         justify-content: space-between;
@@ -86,6 +90,7 @@
     .img-img {
         height: 7em !important;
         padding: 0.25 !important;
+        border-radius: 15px !important;
     }
 
     .projects-title {

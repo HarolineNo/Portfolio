@@ -37,7 +37,7 @@ export const Projects = () => {
                 variant="top"
                 src={item.src}
                 alt={item.title}
-                style={{ height: "20em", borderRadius: "15px", padding: "1rem" }} 
+                style={{ height: "20em", padding: "1rem" }} 
                 className="img-img"/>
               <Card.Body>
                 <Card.Title style={{ color: "white" }} className="tech-title">{item.title}</Card.Title>
