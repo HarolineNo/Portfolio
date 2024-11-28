@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": "1",
-            "src": "Portfolio/assets/images/inventory.png",
+            "src": "./assets/images/inventory.png",
             "title": "Inventory Tracker",
             "tech": "Django, Python, HTML/CSS, JavaScript, Bootstrap",
             "description": "A restaurant inventory management system with features such as user authentication, managing ingredients, menu, purchases, and monitoring finances.",
@@ -11,7 +11,7 @@
         },
         {
             "id": "2",
-            "src": "Portfolio/assets/images/tuneSign.jpg",
+            "src": "./assets/images/tuneSign.jpg",
             "title": "Tunescape",
             "tech": "JavaScript, React Native, CSS, Spotify API",
             "description": "I'm currently developing a music app that uses an API to curate personalized playlists for users based on moods, whether for relaxation, focus, or motivation, tailored to user preferences.",
@@ -20,7 +20,7 @@
         },
         {
             "id": "3",
-            "src": "Portfolio/assets/images/highwayDash.png",
+            "src": "./assets/images/highwayDash.png",
             "title": "Highway Dash",
             "tech": "Python, Pygame, Jupyter Notebook",
             "description": "A 2D driving game where players navigate through traffic while avoiding other cars. It progressively gets harder as you play and keeps track of your score on a leaderboard.",
@@ -31,28 +31,28 @@
     "miniProjects": [
         {
             "id": "1",
-            "src": "Portfolio/assets/images/ticTacToe.png",
+            "src": "./assets/images/ticTacToe.png",
             "title": "Tic-Tac-Toe",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/tic-tac-toe.git"
         },
         {
             "id": "2",
-            "src": "Portfolio/assets/images/JScalculator.png",
+            "src": "./assets/images/JScalculator.png",
             "title": "Calculator",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/JS-Calculator.git"
         },
         {
             "id": "3",
-            "src": "Portfolio/assets/images/rpg.png",
+            "src": "./assets/images/rpg.png",
             "title": "RPG",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/javascript-rpg.git"
         },
         {
             "id": "4",
-            "src": "Portfolio/assets/images/rockPaper.png",
+            "src": "./assets/images/rockPaper.png",
             "title": "Rock Paper Scissors",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/Mini-Project-rock-paper-scissors.git"
@@ -61,28 +61,28 @@
     "miniProjects2": [
         {
             "id": "5",
-            "src": "Portfolio/assets/images/musicPlayer.png",
+            "src": "./assets/images/musicPlayer.png",
             "title": "Music Player",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/Music-player.git"
         },
         {
             "id": "6",
-            "src": "Portfolio/assets/images/calories.png",
+            "src": "./assets/images/calories.png",
             "title": "Calorie Counter",
             "tech": "JavaScript, HTML, CSS",
             "link": "https://github.com/HarolineNo/Calorie-counter.git"
         },
         {
             "id": "7",
-            "src": "Portfolio/assets/images/flappy.png",
+            "src": "./assets/images/flappy.png",
             "title": "Flappy Bird",
             "tech": "Java",
             "link": "https://github.com/HarolineNo/flappy-bird.git"
         },
         {
             "id": "8",
-            "src": "Portfolio/assets/images/qrCode.png",
+            "src": "./assets/images/qrCode.png",
             "title": "QR Code",
             "tech": "HTML, CSS, SCSS",
             "link": "https://github.com/HarolineNo/Qr-Code.git"

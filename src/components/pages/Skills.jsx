@@ -9,42 +9,42 @@ export const Skills = () => {
       </div>
       <div className="skills-list">
         <div className="skill">
-          <img src='Portfolio\assets\images\html-5.png' alt='HTML' className="skill-img" />
+          <img src='.\assets\images\html-5.png' alt='HTML' className="skill-img" />
         </div>
         <div className="skill">
-          <img src='Portfolio\assets\images\css3.png' alt='css3' className="skill-img" />
+          <img src='.\assets\images\css3.png' alt='css3' className="skill-img" />
         </div>
         <div className="skill">
-          <img src='Portfolio\assets\images\js.png' alt='javascript' className="skill-img" />
+          <img src='.\assets\images\js.png' alt='javascript' className="skill-img" />
         </div>
         <div className="skill">
-          <img src='Portfolio\assets\images\python.png' alt='python' className="skill-img" />
+          <img src='.\assets\images\python.png' alt='python' className="skill-img" />
         </div>
         <div className="skill">
-          <img src='Portfolio\assets\images\java.png' alt='java' className="skill-img" />
+          <img src='.\assets\images\java.png' alt='java' className="skill-img" />
         </div>
         <div className="skill">
-          <img src='Portfolio\assets\images\csharp.png' alt='c sharp' className="skill-img" />
+          <img src='.\assets\images\csharp.png' alt='c sharp' className="skill-img" />
         </div>
       </div>
       <div className="skills-list">
         <div className="skill">
-          <img src='Portfolio\assets\images\science.png' alt='react' className="skill-img" />
+          <img src='.\assets\images\science.png' alt='react' className="skill-img" />
         </div>
         <div className="skill">
-          <img src='Portfolio\assets\images\django.png' alt='django' className="skill-img" />
+          <img src='.\assets\images\django.png' alt='django' className="skill-img" />
         </div>
         <div className="skill">
-          <img src='Portfolio\assets\images\mysql.png' alt='mySQL' className="skill-img" />
+          <img src='.\assets\images\mysql.png' alt='mySQL' className="skill-img" />
         </div>
         <div className="skill">
-          <img src='Portfolio\assets\images\git.png' alt='git' className="skill-img" />
+          <img src='.\assets\images\git.png' alt='git' className="skill-img" />
         </div>
         <div className="skill">
-          <img src='Portfolio\assets\images\bootstrap.png' alt='bootstrap' className="skill-img" />
+          <img src='.\assets\images\bootstrap.png' alt='bootstrap' className="skill-img" />
         </div>
         <div className="skill">
-          <img src='Portfolio\assets\images\unity.png' alt='unity' className="skill-img" />
+          <img src='.\assets\images\unity.png' alt='unity' className="skill-img" />
         </div>
       </div>
     </div>
